@@ -19,4 +19,5 @@ class Post:
         blog = self.all_posts[number-1]
         return blog
     
-    
+    def get_blog_collection(self):
+        return self.all_posts
